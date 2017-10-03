@@ -1,0 +1,138 @@
+/* ---------- POSITIONING ---------- */
+
+/* Guilds */
+.friends-online {
+    margin-left: -4.5px !important;
+}
+
+/* Channel title */
+.chat .title-wrap {
+    min-height: 0pt !important;
+    height: 40pt !important;
+    padding: 0pt !important;   
+}
+
+/* Channels */
+.channels-wrap {
+    max-width: 200px;
+}
+.channels-wrap >* {
+    border-bottom: 0px !important;
+}
+
+/* Channel members */
+.channel-members-wrap {
+    min-width: 220px !important;
+    width: 220px !important;
+}
+.channel-members h2{
+    padding-left: 10pt !important;
+}
+.member-status{
+    padding-left: 10pt !important;
+}
+.member-username-inner {
+    font-size: 11pt !important;
+}
+.channel-members .avatar-small {
+    max-width: 20pt !important;
+    max-height: 20pt !important;
+}
+
+/* Messages */
+.message-group .user-name {
+    font-size: 10pt !important;
+    font-weight: bold !important;
+}
+.message-group {
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Message input */
+.chat form { 
+    margin: 0px 20px 0px 10px; 
+}
+.channel-text-area-default {
+    margin: 10px 0px 10px 0px;
+}
+
+/* Friends */
+#friends .friends-header, #friends .friends-table-header, #friends .friends-row{
+    border: none !important;
+}
+
+/* General UI */
+.separator {
+    visibility: hidden;
+}
+
+
+/* !!-- TODO --!! */
+.typing{
+    margin-bottom: 38px !important;
+}
+
+
+
+
+/* ---------- COLORS --------------- */
+
+:root {
+    --L1-color: #101010;
+    --L2-color: #1A1A1A;
+    --L3-color: #242424;
+}
+
+/* Top bar */
+.search-bar {
+    background-color: var(--L3-color) !important;
+}
+
+/* Guilds */
+.guilds-wrapper{
+    background-color: var(--L1-color);
+}
+
+/* Channels */
+.channels-wrap, .channels-wrap>*{
+    background-color: var(--L1-color);
+}
+
+/* Chat */
+.chat>*, .messages{
+    background-color: var(--L1-color) !important;
+}
+.channel-text-area-default>* {
+    background-color: var(--L2-color) !important;
+}
+.theme-dark .messages-wrapper .messages .divider span {
+    background-color: var(--L1-color);
+}
+
+/* Channel members */
+.channel-members {
+    background-color: var(--L1-color) !important;
+}
+
+/* Friends */
+#friends, #friends>*{
+    background-color: var(--L1-color) !important;
+}
+.private-channels .search-bar {
+    background-color: var(--L1-color) !important;
+}
+.private-channels .search-bar .search-bar-inner {
+    background-color: var(--L2-color) !important;
+}
+
+/* Scroll bars */
+.scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: var(--L3-color) !important;
+    border-color: var(--L1-color) !important;
+}
+.scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: var(--L2-color) !important;
+    border-color: var(--L1-color) !important;
+}
