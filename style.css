@@ -20,6 +20,12 @@
     border-bottom: 0px !important;
 }
 
+/* User panel and voice connection */
+.container-3lnMWU, .container-iksrDt {
+	margin-left: -10px;
+}
+
+
 /* Channel members */
 .channel-members-wrap {
     min-width: 220px !important;
